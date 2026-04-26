@@ -61,4 +61,7 @@ def build_movie_receipt(config: Dict[str, Any], current_time: datetime, movie: M
     receipt.blank_rule("One sentence review:", rows=3)
     receipt.center()
     receipt.center("Admit one couch.")
+    if movie.source == "tmdb":
+        receipt.center()
+        receipt.text("Movie data: TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.")
     return receipt

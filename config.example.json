@@ -20,6 +20,19 @@
     "image_path": ""
   },
   "movie": {
-    "source_file": "data/movies.json"
+    "source": "tmdb",
+    "source_file": "data/movies.json",
+    "fallback_to_local": true
+  },
+  "tmdb": {
+    "access_token": "",
+    "language": "en-US",
+    "region": "US",
+    "minimum_vote_count": 250,
+    "minimum_vote_average": 6.8,
+    "include_genres": "",
+    "exclude_genres": "27",
+    "watch_region": "US",
+    "with_watch_monetization_types": "flatrate"
   }
 }

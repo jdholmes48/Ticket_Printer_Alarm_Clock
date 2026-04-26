@@ -40,7 +40,11 @@ Important fields:
 - `location`: used by Open-Meteo for the morning weather forecast.
 - `printer`: Epson ESC/POS connection settings for the Raspberry Pi.
 - `morning.image_path`: optional image path to print and show in previews.
-- `movie.source_file`: local movie recommendation list.
+- `movie.source`: use `tmdb` for API recommendations or `local` for `data/movies.json`.
+- `movie.source_file`: local fallback recommendation list.
+- `tmdb.access_token`: TMDb API read access token. Leave blank until you create a key.
+
+When `movie.source` is set to `tmdb` but `tmdb.access_token` is blank, the nightly script falls back to `data/movies.json` if `movie.fallback_to_local` is `true`.
 
 ## Printing
 
@@ -97,4 +101,16 @@ lsusb
 
 ## Movie List
 
-Movie recommendations come from `data/movies.json`. Add, remove, or edit entries freely. The nightly script picks a deterministic recommendation based on the current date, which avoids repeats feeling totally random while keeping cron output predictable.
+By default, movie recommendations are configured to use TMDb, with `data/movies.json` as a local fallback. Add your TMDb read access token to your private `config.json` when you have one:
+
+```json
+"tmdb": {
+  "access_token": "YOUR_TMDB_READ_ACCESS_TOKEN"
+}
+```
+
+The TMDb recommendation uses `/discover/movie`, then fetches details and credits for the selected movie. It picks deterministically from the returned page based on the current date, which keeps cron output predictable.
+
+The local fallback list lives at `data/movies.json`. Add, remove, or edit entries freely.
+
+TMDb attribution is added automatically to receipts that use TMDb data.
