@@ -1,0 +1,25 @@
+{
+  "timezone": "America/New_York",
+  "receipt": {
+    "columns": 42,
+    "title": "Printer Alarm Clock"
+  },
+  "location": {
+    "name": "New York, NY",
+    "latitude": 40.7128,
+    "longitude": -74.0060
+  },
+  "printer": {
+    "type": "usb",
+    "vendor_id": "0x04b8",
+    "product_id": "0x0202",
+    "profile": "TM-T88III"
+  },
+  "morning": {
+    "greeting": "Good morning, Jack.",
+    "image_path": ""
+  },
+  "movie": {
+    "source_file": "data/movies.json"
+  }
+}

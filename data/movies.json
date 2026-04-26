@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Rear Window",
+    "year": 1954,
+    "runtime": "112 min",
+    "genre": "Mystery, Thriller",
+    "director": "Alfred Hitchcock",
+    "starring": ["James Stewart", "Grace Kelly", "Thelma Ritter"],
+    "synopsis": "A photographer recovering from an injury becomes convinced that one of his neighbors has committed murder."
+  },
+  {
+    "title": "Before Sunrise",
+    "year": 1995,
+    "runtime": "101 min",
+    "genre": "Romance, Drama",
+    "director": "Richard Linklater",
+    "starring": ["Ethan Hawke", "Julie Delpy"],
+    "synopsis": "Two strangers meet on a train and spend one night walking through Vienna, talking as if time has paused for them."
+  },
+  {
+    "title": "The Apartment",
+    "year": 1960,
+    "runtime": "125 min",
+    "genre": "Comedy, Drama, Romance",
+    "director": "Billy Wilder",
+    "starring": ["Jack Lemmon", "Shirley MacLaine", "Fred MacMurray"],
+    "synopsis": "An office worker lends his apartment to executives and slowly discovers the emotional cost of getting ahead."
+  },
+  {
+    "title": "Moonstruck",
+    "year": 1987,
+    "runtime": "102 min",
+    "genre": "Comedy, Romance",
+    "director": "Norman Jewison",
+    "starring": ["Cher", "Nicolas Cage", "Olympia Dukakis"],
+    "synopsis": "A practical widow agrees to marry one brother, then falls into a wildly inconvenient romance with the other."
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "runtime": "99 min",
+    "genre": "Comedy, Adventure",
+    "director": "Wes Anderson",
+    "starring": ["Ralph Fiennes", "Tony Revolori", "Saoirse Ronan"],
+    "synopsis": "A legendary concierge and his lobby boy become entangled in art theft, family intrigue, and a vanishing world."
+  },
+  {
+    "title": "In the Mood for Love",
+    "year": 2000,
+    "runtime": "98 min",
+    "genre": "Romance, Drama",
+    "director": "Wong Kar-wai",
+    "starring": ["Tony Leung", "Maggie Cheung"],
+    "synopsis": "Two neighbors in 1960s Hong Kong discover their spouses are having an affair and form a restrained, aching bond."
+  },
+  {
+    "title": "The Taking of Pelham One Two Three",
+    "year": 1974,
+    "runtime": "104 min",
+    "genre": "Crime, Thriller",
+    "director": "Joseph Sargent",
+    "starring": ["Walter Matthau", "Robert Shaw", "Martin Balsam"],
+    "synopsis": "A New York transit cop negotiates with hijackers who have taken a subway car hostage below the city."
+  }
+]
